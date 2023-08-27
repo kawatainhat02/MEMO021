@@ -1,10 +1,6 @@
-module Persistent {
-    interface Hello {
-        string sayHello( );
-        oneway void shutdown();
-    };
-};
-
 print, 4 * 5
 A = 4 * 5
-help, a
+help, A
+
+original = original + 2
+time = 3 * findgen(200)
